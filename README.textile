@@ -5,7 +5,7 @@ h2. Intro
   
   This rails app is used to demonstrate using Cobweb in a simple environment
   
-h3. Running
+h3. Resque
 
   Start two terminals, one rails console and the other by running a rake worker 
   
@@ -18,6 +18,11 @@ bq. rake resque:work QUEUE=cobweb_crawl_job,crawler_resque_job,crawler_finished_
   In the rails console, run the following command
   
 bq. CrawlerResque.start_demo
+
+h3. Standalone
+
+  You can also run without resque, the CrawlerStandalone class demonstrates this.
+  
   
 h2. License
 
