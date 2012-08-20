@@ -1,5 +1,6 @@
 class CrawlerResqueJob
   
+  # resque queue name
   @queue = :crawler_resque_job
 
   def self.perform(content)
