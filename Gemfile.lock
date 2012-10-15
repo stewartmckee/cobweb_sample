@@ -1,10 +1,11 @@
 PATH
   remote: /Users/stewartmckee/code/cobweb
   specs:
-    cobweb (0.0.63)
+    cobweb (0.0.74)
       addressable
       awesome_print
       haml
+      json
       namespaced_redis (>= 1.0.2)
       nokogiri
       redis
