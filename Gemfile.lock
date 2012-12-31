@@ -143,7 +143,7 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    turn (0.8.3)
+    turn (0.9.6)
       ansi
     tzinfo (0.3.35)
     uglifier (1.3.0)
@@ -163,5 +163,5 @@ DEPENDENCIES
   resque
   sass-rails
   sqlite3
-  turn (~> 0.8.3)
+  turn
   uglifier
