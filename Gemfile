@@ -20,7 +20,7 @@ gem 'jquery-rails'
 gem 'cobweb'
 gem 'resque'
 
-gem 'cohesion', :path => "/Users/stewartmckee/code/cohesion"
+gem 'cohesion'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
